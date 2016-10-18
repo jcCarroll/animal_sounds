@@ -3,6 +3,10 @@ class Dog
 
     def initialize(name)
         @name = name
-        @sound = "Bark"
+        @sound = "Woof"
+    end
+
+    def get_sound()
+        "#{name} says #{sound}"
     end
 end

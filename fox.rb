@@ -5,4 +5,8 @@ class Fox
         @name = name
         @sound = "Ring-ding-ding-ding-dingeringeding"
     end
+
+    def get_sound()
+        "#{name} says #{sound}"
+    end
 end
