@@ -9,5 +9,4 @@ class Cat
     def get_sound()
         "#{name} says #{sound}"
     end
-
 end
